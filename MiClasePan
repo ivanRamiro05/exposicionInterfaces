@@ -1,0 +1,15 @@
+public class MiClasePan implements Pan {
+    private int cantidadPan;
+
+    public void Pan(int cantidad) {
+        this.cantidadPan = cantidad;
+    }
+
+    public int getCantidadpan() {
+        return cantidadPan;
+    }
+
+    public void setCantidadpan(int cantidadpan) {
+        this.cantidadPan = cantidadpan;
+    }
+}
